@@ -1,8 +1,10 @@
 # Mapping Earthquakes
 
+
 ## Project Overview
 
 This project focused on creating an interactive map to visualise Earthquake data around the world, using Mapbox, Leaflet and JavaScript. For the challenge, Tectonic Plate Boundaries were added as an additional layer to the map. The map could be displayed in one of three views (Street, Satellite or Dark) and Earthquake and Tectonic Plate data could each be toggled on or off. Clicking on any data point for the Earthquake data would display magnitude and location information, and clicking on any tectonic plate boundary line would display the name of the boundary.
+
 
 ## Resources
 
@@ -22,7 +24,9 @@ This project focused on creating an interactive map to visualise Earthquake data
     * [Earthquake Data GeoJSON](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson)
     * [Tectonic Boundary GeoJSON](https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json)
 
+
 ## Visualisation
 
-All the code to create the interactive webpage can be found [here](), and a screenshot example of the page is as follows. 
+All the code to create the interactive webpage can be found in the Earthquake_Challenge folder and a screenshot example of the page is as follows. 
+
 ![Challege Map](https://github.com/Alyssa-CG/Module13-Mapping_Earthquakes/blob/master/Earthquake_Challenge/static/images/Challenge_Map.png)
