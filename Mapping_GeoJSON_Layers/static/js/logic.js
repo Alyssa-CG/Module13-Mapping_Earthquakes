@@ -40,7 +40,11 @@ let airportData = "https://raw.githubusercontent.com/Alyssa-CG/Module13-Mapping_
 d3.json(airportData).then(function(data) {
     console.log(data);
     // Creating a GeoJSON layer with the retrieved data.
-  L.geoJson(data)
-  // .bindPopup(data.features.properties.name)
+  L.geoJson(data, { 
+    onEachFeature: function (feature, layer) { 
+      layer.bindPopup("<h3> Airport Code: " + feature.properties.faa + "</h3>" + 
+      "<hr><h4>Airport Name: " + feature.properties.name + "</h4>") 
+    } 
+  })
   .addTo(map);
 });
